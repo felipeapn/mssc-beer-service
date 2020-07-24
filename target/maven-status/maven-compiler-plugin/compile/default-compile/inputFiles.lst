@@ -1,0 +1,11 @@
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\web\controller\BeerController.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\web\model\BeerPagedList.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\web\controller\MvcExceptionHandler.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\bootstrap\BeerLoader.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\repositories\BeerRepository.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\domain\Beer.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\web\model\BeerDto.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\web\mapper\DateMapper.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\web\mapper\BeerMapper.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\web\model\BeerStyleEnum.java
+C:\Users\felip\Documents\StsWorkspace\micro\mssc-beer-service\src\main\java\com\felipeapn\beerservice\api\MsscBeerServiceApplication.java

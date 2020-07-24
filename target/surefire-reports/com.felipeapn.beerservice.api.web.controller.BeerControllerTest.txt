@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.felipeapn.beerservice.api.web.controller.BeerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.178 s <<< FAILURE! - in com.felipeapn.beerservice.api.web.controller.BeerControllerTest
+testUpdateBeerById  Time elapsed: 0.19 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<400>
+	at com.felipeapn.beerservice.api.web.controller.BeerControllerTest.testUpdateBeerById(BeerControllerTest.java:55)
+
+testSaveNewBeer  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<400>
+	at com.felipeapn.beerservice.api.web.controller.BeerControllerTest.testSaveNewBeer(BeerControllerTest.java:44)
+

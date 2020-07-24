@@ -1,0 +1,14 @@
+com\felipeapn\beerservice\api\MsscBeerServiceApplication.class
+com\felipeapn\beerservice\api\web\model\BeerDto.class
+com\felipeapn\beerservice\api\web\mapper\BeerMapper.class
+com\felipeapn\beerservice\api\web\controller\MvcExceptionHandler.class
+com\felipeapn\beerservice\api\web\model\BeerDto$BeerDtoBuilder.class
+com\felipeapn\beerservice\api\web\controller\BeerController.class
+com\felipeapn\beerservice\api\domain\Beer.class
+com\felipeapn\beerservice\api\web\mapper\DateMapper.class
+com\felipeapn\beerservice\api\web\model\BeerStyleEnum.class
+com\felipeapn\beerservice\api\repositories\BeerRepository.class
+com\felipeapn\beerservice\api\domain\Beer$BeerBuilder.class
+com\felipeapn\beerservice\api\web\mapper\BeerMapperImpl.class
+com\felipeapn\beerservice\api\bootstrap\BeerLoader.class
+com\felipeapn\beerservice\api\web\model\BeerPagedList.class
