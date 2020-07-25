@@ -4,13 +4,14 @@ import com.felipeapn.beerservice.api.domain.Beer;
 import com.felipeapn.beerservice.api.domain.Beer.BeerBuilder;
 import com.felipeapn.beerservice.api.web.model.BeerDto;
 import com.felipeapn.beerservice.api.web.model.BeerDto.BeerDtoBuilder;
+import com.felipeapn.beerservice.api.web.model.BeerStyleEnum;
 import javax.annotation.processing.Generated;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-07-24T23:26:23+0200",
+    date = "2020-07-25T18:13:27+0200",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 11.0.5 (Oracle Corporation)"
 )
 @Component
@@ -34,6 +35,9 @@ public class BeerMapperImpl implements BeerMapper {
         beerDto.createdDate( dateMapper.asOffsetDateTime( beer.getCreatedDate() ) );
         beerDto.lastModifiedDate( dateMapper.asOffsetDateTime( beer.getLastModifiedDate() ) );
         beerDto.beerName( beer.getBeerName() );
+        if ( beer.getBeerStyle() != null ) {
+            beerDto.beerStyle( Enum.valueOf( BeerStyleEnum.class, beer.getBeerStyle() ) );
+        }
         beerDto.upc( beer.getUpc() );
         beerDto.price( beer.getPrice() );
 
@@ -55,6 +59,9 @@ public class BeerMapperImpl implements BeerMapper {
         beer.createdDate( dateMapper.asTimestamp( dto.getCreatedDate() ) );
         beer.lastModifiedDate( dateMapper.asTimestamp( dto.getLastModifiedDate() ) );
         beer.beerName( dto.getBeerName() );
+        if ( dto.getBeerStyle() != null ) {
+            beer.beerStyle( dto.getBeerStyle().name() );
+        }
         beer.upc( dto.getUpc() );
         beer.price( dto.getPrice() );
 
